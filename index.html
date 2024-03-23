@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha's personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee68b9e628.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-caret-down" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello,I'm <span>Diksha Saraswat</span><br>from India. </h1>
+            </div>
+        </div>
+    </div>
+   <!---------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Motivated undergraduate computer engineering student with a focus on web development.I bring a
+                        foundational understanding of HTML, CSS, and JavaScript. Eager to apply classroom learning in practical
+                        settings, I have hands-on experience in creating basic websites and am committed to expanding my skills.
+                        Quick learner, team-oriented, and dedicated to contributing to web development projects.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Building and Maintaining Websites.</li>
+                                <li><span>Software Engineer</span><br>Problem solving with computer languages.</li>
+                                <li><span>Video Editing</span><br>Art of Manipulating videos.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-Present</span><br>Web Developer in college club CODE CHEF ZHCET.</li>
+                                <li><span>2023-Present</span><br>Tech Team Member in AMUPEDIA.</li>
+                                <li><span>2023-Present</span><br>Social Media intern in PREGRAD.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2026</span><br>Bachelor of Technology in Computer Engineering from Zakir Husian College of Engineering & Technology,Aligarh Muslim University. <br>PRESENT</li>
+                                <li><span>2020-2021</span><br>Senior Secondary Education(12th) from Army Public School Mathura Cantt(CBSE). <br>95.6%</li>
+                                <li><span>2018-2019</span><br>Secondary Education (10th) from Army Public School Mathura Cantt(CBSE). <br>95.8%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As a novice front-end developer, I provide responsive and visually appealing website designs, proficiency in HTML, CSS, and JavaScript, and a commitment to creating engaging user experiences for your web projects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>Software Development</h2>
+                    <p>As an entry-level software engineer, I offer foundational skills in coding, problem-solving, and collaboration. Eager to contribute to dynamic projects, learn, and grow within a collaborative development team</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing </h2>
+                    <p>As a beginner video editor, I bring creativity and a keen eye for detail. Proficient in video editing software, I am eager to contribute my skills in crafting engaging visual content.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------------------------portfolio---------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Web Development.jpg" >
+                <div class="layer">
+                    <h3>Netflix</h3>
+                    <p>website to be connected</p>
+                    <a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="se.jpg" >
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>website to be connected</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="ve.jpg">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>website to be connected</p>
+                    <a href="https://youtube.com/shorts/akfsi9RUXHM?si=M-sQJ-7w0KIQffXd"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+   <!------------------------contact----------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>     renusaraswat620@gmail.com <br><i class="fa-solid fa-envelope"></i>
+                saraswatdiksha05@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8077281574</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/diksha-saraswat-65701b274/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dikshasaraswa"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/s_diksha_0403/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Experience-2.pdf"download class="btn btn2">Dowmload my Resume in PDF format.</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> copyright &copy; DIKSHA SARASWAT.<i class="fa-solid fa-heart"></i></p>
+    </div>
+   </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMzGyFA1FOgaEjB-ClmD5-GGZl95okIOhYRThjFJ9HzweEMXtW-43id-m_qoHfDvZQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Form Submitted Successfully !!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
